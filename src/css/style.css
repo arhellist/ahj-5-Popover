@@ -15,6 +15,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
+ 
 }
 
 body {
@@ -221,6 +222,10 @@ body {
   }
 }
 
+
+.wrapper{
+  position: relative;
+}
 .tooltip {
   position: absolute;
   z-index: 1060;
@@ -240,7 +245,10 @@ body {
   border-radius: 0.3rem;
   padding: 5px;
   color: blanchedalmond;
+  perspective:none;
+  letter-spacing:normal;
 
+  
   .tooltip-header {
     font-weight: 500;
   }
@@ -253,3 +261,4 @@ body {
   border: 20px solid transparent;
   border-top: 20px solid #888888;
 }
+
