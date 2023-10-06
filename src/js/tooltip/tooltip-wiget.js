@@ -20,8 +20,8 @@ export default class Tooltip {
     this.button.addEventListener('click', () => {
       if (document.querySelector('.tooltip') === null) {
         this.addTooltip();
-        document.querySelector('.tooltip').style.bottom = `${100}px`;
-        document.querySelector('.tooltip').style.left = `${68}px`;
+        document.querySelector('.tooltip').style.bottom = `${70}px`;
+        document.querySelector('.tooltip').style.left = `${22}px`;
       } else if (document.querySelector('.tooltip') !== null) {
         document.querySelector('.tooltip').remove();
       }
